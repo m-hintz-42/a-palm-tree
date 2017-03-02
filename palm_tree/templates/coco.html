@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block data %}
+    <style>
+        .centered {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        div {
+        background-color: white;
+        background-image: url("/static/coco_dance.gif");
+        background-size: contain;
+        }
+    </style>
+    <body>
+        <div class="centered">
+            <h1>Great Job - Here's a GIF</h1>
+        </div>
+    </body>
+
+{% endblock %}
