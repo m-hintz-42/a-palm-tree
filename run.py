@@ -1,2 +1,2 @@
 from palm_tree import tree
-tree.run(host='127.0.0.1', debug=True, port=80)
+tree.run(host='54.234.150.240', debug=True, port=80)
