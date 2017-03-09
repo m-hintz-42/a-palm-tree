@@ -5,5 +5,5 @@ tree = Flask(__name__, static_url_path='/static')
 tree.config.from_object('config')
 db = SQLAlchemy(tree)
 
-import coconut_1.controller_1
+import palm_tree.coconut_1.controller_1
 
