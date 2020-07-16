@@ -1,3 +1,4 @@
 *.idea
 *.idea/*
 *.pyc
+palm_tree/build/*
